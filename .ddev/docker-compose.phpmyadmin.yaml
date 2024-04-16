@@ -9,7 +9,7 @@ services:
       com.ddev.site-name: ${DDEV_SITENAME}
       com.ddev.approot: $DDEV_APPROOT
     expose:
-      - "80"
+      - "8034"
     environment:
     - PMA_USER=root
     - PMA_PASSWORD=root
