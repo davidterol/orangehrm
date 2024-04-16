@@ -12,6 +12,8 @@ database:
 use_dns_when_possible: true
 composer_version: "2.1"
 web_environment: []
+router_http_port: 8039
+router_https_port: 8040
 
 # Key features of DDEV's config.yaml:
 
